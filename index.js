@@ -1,7 +1,7 @@
 function getRandom() {
   // Generate Random number
   var randomNumber1 = Math.random();
-  randomNumber1 = Math.floor(randomNumber1 * 6 + 1);
+  randomNumber1 = Math.floor((randomNumber1 * 6) + 1);
 
   var randomNumber2 = Math.random();
   randomNumber2 = Math.floor(randomNumber2 * 6 + 1);
@@ -9,6 +9,9 @@ function getRandom() {
 // Select the images based on the random number
   document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
   document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
+
+}
+getRandom()
 
 
 
@@ -28,8 +31,7 @@ function getRandom() {
 
 
 
-}
-getRandom();
+
 
 
 
