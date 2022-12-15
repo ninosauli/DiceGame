@@ -13,7 +13,7 @@ function getRandom() {
 
 
 // Change H1 ONLY after Refresh is clicked
-  document.getElementById("refresh-button").onclick = function() {s
+  document.getElementById("refresh-button").onclick = function() {
     myFunction()
   };
   function myFunction() {
