@@ -10,9 +10,6 @@ function getRandom() {
   document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
   document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
 
-}
-getRandom()
-
 
 
 // Change H1 ONLY after Refresh is clicked
@@ -28,6 +25,9 @@ getRandom()
       document.querySelector("h1").textContent = " 🎲 Draw 🎲";
     }
   }
+}
+getRandom()
+
 
 
 
