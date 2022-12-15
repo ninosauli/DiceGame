@@ -1,0 +1,93 @@
+body {
+  background-color: #FFFDE3;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #3FA796;
+  margin-top: 0;
+  padding-top: 7%
+}
+
+p {
+  font-size: 2rem;
+  color: #3FA796;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 0;
+  color: #2A0944;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  background-color: #FFD384;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+
+/* Image Background */
+.back {
+  position: absolute;
+  opacity: 75%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+/* Buttons */
+.refreshi-button {
+  padding: 6% 30% 10%;
+  text-align: center;
+}
+
+#refresh-button {
+  padding: 0 5%;
+  background-color: #2A0944;
+  width: 200px;
+  height: 60px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+
+
+
+/* Phone */
+@media (max-width: 790px) {
+  .back {
+    height: 105%;
+  }
+  h1{text-align: center;
+  font-size: 6rem;}
+}
+
+/* Tablet */
+@media (min-width: 790px) and (max-width: 1850px) {
+  .back {
+    height: 110%;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 120px;
+  }
+}
