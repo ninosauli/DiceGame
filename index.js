@@ -12,11 +12,7 @@ function getRandom() {
 
 
 
-// Change H1 ONLY after Refresh is clicked
-  document.getElementById("refresh-button").onclick = function() {
-    myFunction()
-  };
-  function myFunction() {
+
     if (randomNumber1 > randomNumber2) {
       document.querySelector("h1").textContent = "🎲 Player 1 Wins";
     } else if (randomNumber1 < randomNumber2) {
@@ -24,13 +20,14 @@ function getRandom() {
     } else {
       document.querySelector("h1").textContent = " 🎲 Draw 🎲";
     }
-  }
+ 
+    
 }
 getRandom()
 
 
-
-
+// Change H1 ONLY after Refresh is clicked
+  document.getElementById("refresh-button").onclick = getRandom() 
 
 
 
