@@ -2,16 +2,13 @@ function getRandom() {
   // Generate Random number
   var randomNumber1 = Math.floor( Math.random() * 6) + 1;
 
-  var randomDiceImage = "dice" + randomNumber1 + ".png;
-  var randomIamgeSource = "images/" + randomDiceImage;
 
 // Select the images based on the random number
-  document.querySelector(".img1").setAttribute("src", randomIamgeSource);
+  document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
 
   var randomNumber2 = Math.floor( Math.random() * 6) + 1;
-    var randomIamgeSource2 = "images/dice" + randomNumber2 + ".png";
 
-  document.querySelector(".img2").setAttribute("src", randomIamgeSource2);
+  document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
 
 
 
